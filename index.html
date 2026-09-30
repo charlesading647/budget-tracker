@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Main heading -->
+    <header>
+        <img
+            src="https://cdn-icons-png.flaticon.com/512/3135/3135706.png"
+            alt="Budget tracker icon"
+            width="80"
+        >
+
+        <h1>My Budget Tracker</h1>
+
+        <p>Track your income and expenses in one place.</p>
+    </header>
+
+
+    <!-- Add Expense Section -->
+    <section id="add-expense">
+        <h2>Add Expense</h2>
+
+        <form>
+            <input
+                type="text"
+                id="expense-name"
+                placeholder="Expense name"
+            >
+
+            <input
+                type="number"
+                id="expense-amount"
+                placeholder="Amount"
+            >
+
+            <select id="expense-category">
+                <option value="Food">Food</option>
+                <option value="Transport">Transport</option>
+                <option value="Rent">Rent</option>
+                <option value="Entertainment">Entertainment</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <button type="button">Add Expense</button>
+        </form>
+    </section>
+
+
+    <!-- Expenses Section -->
+    <section class="expenses">
+        <h2>Your Expenses</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Amount</th>
+                    <th>Category</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Lunch</td>
+                    <td>Ksh 250</td>
+                    <td>Food</td>
+                    <td>2026-09-30</td>
+                </tr>
+
+                <tr>
+                    <td>Bus Fare</td>
+                    <td>Ksh 100</td>
+                    <td>Transport</td>
+                    <td>2026-09-29</td>
+                </tr>
+
+                <tr>
+                    <td>Movie</td>
+                    <td>Ksh 500</td>
+                    <td>Entertainment</td>
+                    <td>2026-09-28</td>
+                </tr>
+
+                <tr>
+                    <td>Rent</td>
+                    <td>Ksh 5,000</td>
+                    <td>Rent</td>
+                    <td>2026-09-27</td>
+                </tr>
+
+                <tr>
+                    <td>Snacks</td>
+                    <td>Ksh 150</td>
+                    <td>Food</td>
+                    <td>2026-09-26</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+    <!-- How to use section -->
+    <section>
+        <details>
+            <summary>How to use this tracker</summary>
+
+            <p>
+                Enter the name and amount of your expense,
+                choose a category, and click the Add Expense button.
+                The expense table shows sample expenses currently.
+            </p>
+        </details>
+    </section>
+
+
+    <!-- YouTube Video -->
+    <section>
+        <h2>Budgeting Tips</h2>
+
+        <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/T_776Cwvejs"
+    title="Personal Budgeting Tips"
+    frameborder="0"
+    allowfullscreen>
+</iframe>
+    </section>
+
+</body>
+
+</html>
